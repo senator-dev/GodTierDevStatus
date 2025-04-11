@@ -2,10 +2,11 @@
     "name": "God Tier Dev Status",
     "image": "god-tier-dev-status-container",
     "mounts": [
-        "source=D:\\llms,target=/workspaces/notes/llms,type=bind"
+        "source=D:\\llms,target=/workspaces/GodTierDevStatus/🤖/llms,type=bind"
     ],
     "runArgs": [
-        "--gpus", "all"
+        "--gpus", "all",
+        "--memory=100G"
     ],
     "customizations": {
         "vscode": {
